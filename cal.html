@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULTOR</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <div class="resultbox">
+            <input id="in" type="text">
+            </div>
+        <div class="button1">
+            <div class="button2">
+                <button class="but" onclick="cl()">C</button>
+                <button class="but">%</button>
+                <button class="but" onclick="cut()">X</button>
+                <button class="but">/</button>
+             </div>
+            <div class="button2">
+                <button class="but">7</button>
+                <button class="but">8</button>
+                <button class="but">9</button>
+                <button class="but">*</button>
+            </div>
+            <div class="button2">
+                <button class="but">4</button>
+                <button class="but">5</button>
+                <button class="but">6</button>
+                <button class="but">-</button>
+            </div>
+            <div class="button2">
+                <button class="but">1</button>
+                <button class="but">2</button>
+                <button class="but">3</button>
+                <button class="but">+</button>
+            </div>
+            <div class="button2">
+                <button class="but">00</button>
+                <button class="but">0</button>
+                <button class="but">.</button>
+                <button class="but" id="result"  onclick="result()">Result</button>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="cal.js"></script>
+</body>
+</html>
